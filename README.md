@@ -1,47 +1,58 @@
-# Book Finder Application
+📚 Book Finder App
 
-A clean, fast, and responsive web application that allows users to search for books using the Open Library API. This project was built as a solution to a take-home challenge.
+A modern Book Search App built with React + Vite and styled using Tailwind CSS.
+This project was created as part of a company take-home challenge (second round).
 
-**Live Demo Link:** [Insert Your Deployed App Link Here]
+👉 Live Demo: https://xd2lj6-5173.csb.app/
 
----
+✨ Features
 
-## Features
+🔍 Search Books by title using the Open Library API
+.
 
--   **Dynamic Book Search:** Search for books by title, author, or keyword.
--   **Interactive UI:** A loading indicator provides feedback during API calls, and a clean grid displays results.
--   **Graceful Error Handling:** Displays user-friendly messages for network errors or if no books are found.
--   **Responsive Design:** The interface is fully responsive and works seamlessly on desktops, tablets, and mobile devices.
--   **Book Details:** Each result shows the book's cover, title, author, and first publish year.
+⏳ Loading indicator while fetching results.
 
----
+⚠️ Error handling for network issues or no results.
 
-## Technology Stack
+📖 Displays book cover, title, author(s), and first publish year.
 
--   **Framework:** React (with Vite)
--   **Styling:** Tailwind CSS
--   **State Management:** React Hooks (useState, useEffect, useContext)
--   **Data Fetching:** Fetch API connected to the [Open Library Search API](https://openlibrary.org/dev/docs/api/search).
+📱 Responsive design — works beautifully on mobile, tablet, and desktop.
 
----
+🎨 Modern UI powered by Tailwind for a clean, eye-catching look.
 
-## How to Run Locally
+🛠️ Tech Stack
 
-1.  Clone the repository:
-    ```
-    git clone [Your Repository URL]
-    ```
-2.  Navigate into the project directory:
-    ```
-    cd book-finder
-    ```
-3.  Install the dependencies:
-    ```
-    npm install
-    ```
-4.  Start the development server:
-    ```
-    npm run dev
-    ```
-    The application will be available at `http://localhost:5173`.
+⚛️ React
+ (with Vite
+)
 
+🎨 Tailwind CSS
+
+🌐 Open Library API
+
+🚀 Getting Started
+
+Make sure you have Node.js installed on your computer.
+
+1️⃣ Clone the repo
+git clone : https://github.com/Shlok9027/BOOK-FINDER
+
+2️⃣ Go into the project folder
+cd book-finder
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Run the dev server
+npm run dev
+
+
+Now open your browser at 👉 https://xd2lj6-5173.csb.app/
+
+
+🙌 Acknowledgements
+
+Open Library 
+ for their free API.
+
+Tailwind CSS for making styling fast and fun.
